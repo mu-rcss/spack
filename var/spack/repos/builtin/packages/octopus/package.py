@@ -11,8 +11,9 @@ class Octopus(Package):
     theory code."""
 
     homepage = "https://octopus-code.org/"
-    url      = "http://octopus-code.org/down.php?file=6.0/octopus-6.0.tar.gz"
+    url      = "http://octopus-code.org/down.php?file=9.2/octopus-9.2.tar.gz"
 
+    version('9.2',   sha256='85ff24944de5bafdee98acc6fc0b74c80d37b29ab245da6ccc749ab9cc66601a')
     version('7.3',   sha256='ad843d49d4beeed63e8b9a2ca6bfb2f4c5a421f13a4f66dc7b02f6d6a5c4d742')
     version('6.0',   sha256='4a802ee86c1e06846aa7fa317bd2216c6170871632c9e03d020d7970a08a8198')
     version('5.0.1', sha256='3423049729e03f25512b1b315d9d62691cd0a6bd2722c7373a61d51bfbee14e0')
